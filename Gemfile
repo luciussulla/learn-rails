@@ -52,3 +52,6 @@ gem 'bootstrap-sass'
 gem 'gibbon'
 gem 'high_voltage'
 
+group :production do
+  gem 'pg'
+end
